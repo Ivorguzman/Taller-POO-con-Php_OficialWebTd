@@ -7,7 +7,7 @@ class ElThisEnPhp
 	public ?string $producto;
 	public ?string $nombreDelFabricante;
 	public ?string $apellidoDelFabricante;
-	public int $precio;
+	public ?int $precio;
 
 
 	public function __construct(string $producto, string $nombreDelFabricante, string $apellidoDelFabricante, int $precio)
